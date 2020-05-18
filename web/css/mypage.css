@@ -1,0 +1,371 @@
+body{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  /* background-image: url(../photo/NVpIM2ptOHhYRzVmUk5rM1NrNlFxYVV6enV4aGk2UFRJMmxPckdDUUVNYTFYbUZtNTJSTHB6ZE5PRXQyYitHcUl0ZFEzYlhHaFcveEdVWHdQYnVXUzhWYWR6V0tOb0ZXbnBSdkV5RGNkalZTY2tDZW9DaVBNdGxmc2phSmUrK01KNS9zMXltQXF5akJCL2p6WjNKSklLZjZ0MlNXVVhVNC.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+.home{
+  background-image: url(../photo/celebrites03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.LIST{
+  width: 1000px;
+  height: auto;
+  border: double 5px black;
+  margin: 50px auto;
+  background-color: #FFFFDD;
+  border-radius: 10px;
+}
+.TOP{
+  height: 35px;
+  border-bottom: dashed 1px black;
+  display: flex;
+}
+.TOP{
+  height: 35px;
+  border-bottom: dashed 1px black;
+  display: flex;
+}
+.TOP p{
+  line-height: 35px;
+  flex: 1;
+}
+.byuser{
+  margin: 30px;
+}
+.MIDDLE{
+  height: 35px;
+}
+.MIDDLE form, .MIDDLE p{
+  line-height: 35px;
+  margin: auto 5px auto;
+}
+.MIDDLE p{
+  line-height: 35px;
+  padding-left: 20px;
+  float: left;
+}
+.COMMENT{
+  width: 1000px;
+  height: auto;
+  border: double 5px black;
+  margin: 50px auto;
+  background-color: #FFFFDD;
+}
+.BODY{
+  height: auto;
+  border-top: dashed 1px black;
+}
+.menu_body{
+  margin-left: 10px;
+}
+.com{
+  width: 300px;
+}
+.x{
+  margin: 5px;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.float_right{
+  float: right;
+}
+.border-left{
+  border-left: dashed 1px black;
+}
+.BODY p{
+  padding: 10px;
+  text-align: left;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.account{
+  height: 20px;
+  padding: 5px;
+  background: #fff;
+}
+.account p{
+  line-height: 20px;
+}
+.login{
+  font-size: 15px;
+  color: #222222;
+}
+.login_user{
+  font-size: 18px;
+  color: #222222;
+}
+.logout_form{
+  display: inline-block;
+  padding: 0 30px;
+}
+.logout{
+  width: 120px;
+  height: 22px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+}
+h1{
+  margin: 10px 90px 30px;
+  font-size: 50px;
+  padding: 10px 0 0 100px;
+  text-align: left;
+  border-bottom: solid 2px black;
+}
+.homeh1{
+  margin: 100px 0 30px;
+  font-size: 50px;
+  padding: 10px 0 0 100px;
+  text-align: left;
+  border-bottom: none;
+}
+.fs30{
+  font-size: 30px;
+  margin: 0 30px 0 5px;
+}
+.fs20{
+  font-size: 20px;
+  opacity: 0.5;
+}
+.fs15{
+  font-size: 15px;
+}
+.inline{
+  display: inline-block;
+}
+.margin15{
+  margin: auto 15px;
+}
+.marginleft50{
+  margin-left: 50px;
+}
+.submit{
+  width: 140px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #FFFFDD;
+}
+.big{
+  width: 250px;
+  cursor: pointer;
+}
+.navi{
+  height: 30px;
+  display: flex;
+  border-bottom: solid 2px gray;
+  border-top: solid 2px gray;
+}
+.navi a{
+  line-height: 30px;
+  font-size: 15px;
+  flex: 1;
+}
+.navi a:hover{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: #222222;
+}
+.blue{
+  background-color: #0000CC;
+  color: #fff;
+}
+.green{
+  background-color: #00AA00;
+  color: #fff;
+}
+.white{
+  background-color: white;
+}
+.red{
+  background-color: #CC0000;
+  color: #fff;
+}
+.body{
+  height: auto;
+}
+.user_info{
+  background-color: #FFFFDD;
+  width: 250px;
+  height: 150px;
+  margin: 80px auto;
+  border: double 5px #222222;
+}
+.warning{
+  margin: 150px auto;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: black;
+}
+.notice{
+  padding: 10px;
+  font-size: 18px;
+  color: black;
+  width: 500px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: solid 2px black;
+  margin: 0 auto 30px;
+}
+table{
+  margin: 20px auto 50px;
+}
+.table{
+  table-layout: fixed;
+  width: 500px;
+}
+.word-break{
+  height: auto;
+  overflow-wrap : break-word;
+  text-align: left;
+}
+.right p{
+  margin-top: 10px;
+  height: auto;
+  line-height: 35px;
+  white-space: pre-wrap;
+  text-align: left;
+  font-size: 20px;
+}
+.comment_area{
+  color: black;
+  line-height: 50px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  outline: none;
+  height: 50px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: solid 3px black;
+  margin: 20px auto;
+}
+.middle{
+  margin: 0 auto;
+  padding: 20px;
+}
+.comment_form{
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  background-color: #FFFFDD;
+}
+.find_menu{
+  margin: 150px auto;
+}
+.find{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+}
+.find_submit{
+  width: 60px;
+  height: 35px;
+  margin-left: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.homeSelect{
+  width: 100px;
+  height: 35px;
+  margin-left: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.left{
+  width: 500px;
+  height: 400px;
+  float: left;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.right{
+  width: 400px;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+}
+.left p{
+  text-align: left;
+}
+.add_form{
+  width: 80%;
+  margin: 0 auto;
+}
+.flex2{
+  flex: 2;
+}
+.addMenu{
+  margin-bottom: 15px;
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.addCost{
+  margin-bottom: 15px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.category{
+  margin-bottom: 15px;
+  font-size: 18px;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.border{
+  padding-bottom: 5px;
+  border-bottom: solid 2px black;
+  margin-top: 0;
+  border-radius: 0;
+  font-size: 25px;
+}
+.textarea{
+  width: 400px;
+  height: 300px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.text_border{
+  border: solid 2px black;
+  border-radius: 10px;
+}
